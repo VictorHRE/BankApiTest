@@ -427,3 +427,6 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+/BankApiTest.API/BankApiTest.db
+/BankApiTest.API/BankApiTest.db-shm
+/BankApiTest.API/BankApiTest.db-wal
