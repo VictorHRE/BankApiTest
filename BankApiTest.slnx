@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="BankApiTest.API/BankApiTest.API.csproj" />
+  <Project Path="BankApiTest.Application/BankApiTest.Application.csproj" />
+  <Project Path="BankApiTest.Core/BankApiTest.Core.csproj" />
+  <Project Path="BankApiTest.Infrastructure/BankApiTest.Infrastructure.csproj" />
+</Solution>
