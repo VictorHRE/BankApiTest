@@ -109,7 +109,7 @@ namespace BankApiTest.Application.Services
                 AccountId = account.Id,
                 Amount = dto.Amount,
                 Type = TransactionType.Deposit,
-                Timestamp = DateTime.UtcNow,
+                Date = DateTime.Now,
                 ResultingBalance = account.Balance
             };
 
@@ -142,7 +142,7 @@ namespace BankApiTest.Application.Services
                 AccountId = account.Id,
                 Amount = dto.Amount,
                 Type = TransactionType.Withdrawal,
-                Timestamp = DateTime.UtcNow,
+                Date = DateTime.Now,
                 ResultingBalance = account.Balance
             };
 

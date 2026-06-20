@@ -13,7 +13,7 @@ namespace BankApiTest.Core.Entities
         public int Id { get; set; }
         public TransactionType Type { get; set; }
         public decimal Amount { get; set; }
-        public DateTime Timestamp { get; set; }
+        public DateTime Date { get; set; }
         public decimal ResultingBalance { get; set; }
 
         public int AccountId { get; set; }
