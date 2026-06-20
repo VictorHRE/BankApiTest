@@ -26,7 +26,7 @@ builder.Services.AddScoped<IAccountService, AccountService>();
 builder.Services.AddSingleton<IAccountNumberGenerator, AccountNumberGenerator>();
 
 // Register AutoMapper
-builder.Services.AddAutoMapper(typeof(MappingProfile));
+builder.Services.AddAutoMapper(cfg => cfg.AddProfile<MappingProfile>());
 
 // Register Global Exception Handler
 builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
